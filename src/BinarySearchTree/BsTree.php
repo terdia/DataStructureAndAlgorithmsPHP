@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\BinaryTree;
+namespace App\BinarySearchTree;
 
-class BinaryTree
+class BsTree
 {
     private ?BstNode $root = null;
 

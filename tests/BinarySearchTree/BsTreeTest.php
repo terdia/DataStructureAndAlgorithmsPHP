@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Tests\BinaryTree;
+namespace Tests\BinarySearchTree;
 
-use App\BinaryTree\BinaryTree;
-use App\BinaryTree\BstNode;
+use App\BinarySearchTree\BsTree;
+use App\BinarySearchTree\BstNode;
 use PHPUnit\Framework\TestCase;
 
-class BinaryTreeTest extends TestCase
+class BsTreeTest extends TestCase
 {
 
     public function testBinarySearchTreeIsOrdered(): void
@@ -52,9 +52,9 @@ class BinaryTreeTest extends TestCase
         self::assertNull($result);
     }
 
-    private function getTree(): BinaryTree
+    private function getTree(): BsTree
     {
-        $tree = new BinaryTree();
+        $tree = new BsTree();
         $tree->addValue(13);
         $tree->addValue(8);
         $tree->addValue(2);

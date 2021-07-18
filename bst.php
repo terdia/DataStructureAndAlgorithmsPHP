@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-use App\BinaryTree\BinaryTree;
+use App\BinarySearchTree\BsTree;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
 ini_set('display_errors', '1');
 error_reporting(E_ALL);
 
-$tree = new BinaryTree();
+$tree = new BsTree();
 /* for ($i = 0; $i < 10; $i++) {
     $tree->addValue(random_int(0, 100));
 }*/

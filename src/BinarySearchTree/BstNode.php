@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\BinaryTree;
+namespace App\BinarySearchTree;
 
 class BstNode
 {

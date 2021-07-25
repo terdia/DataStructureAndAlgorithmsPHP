@@ -63,7 +63,7 @@ class LinkedListTest extends TestCase
         self::assertSame(17, $listNode->getValue());
     }
 
-    public function testItReturnsNullWhenGivenAValueIsNotPresentInALinkedList(): void
+    public function testItReturnsNullWhenGivenAValueThatIsNotPresentInALinkedList(): void
     {
         //empty list
         $list = new LinkedList();

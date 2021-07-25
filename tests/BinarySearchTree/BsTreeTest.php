@@ -45,7 +45,7 @@ class BsTreeTest extends TestCase
         self::assertSame(8, $result->getValue());
     }
 
-    public function testItReturnsNullWhenGivenAValueIsNotPresentInTheTree(): void
+    public function testItReturnsNullWhenGivenAValueThatIsNotPresentInTheTree(): void
     {
         $tree   = $this->getTree();
         $result = $tree->search(20);
